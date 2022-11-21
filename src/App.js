@@ -2,21 +2,36 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="fluid">
       
-      {/* Navigation bar container */}
-      <header className="container">
+      {/* Navigation Bar*/}
+      <header className="container" id="SideNavbarHeader">
             
       </header>
     
       {/* Content Container */}
-      <body className='flex'>
+      <body className='container'>
+
+
+        {/* Patiant Name */}
+        <div className='flex' id="patiantContainer">
+        
+        </div>
+
+        {/* Requisitions */}
+        <div className='flex' id="requisitionContainer">
+
+        </div>
+
+        
+        {/* Tests */}
+        <div className='flex' id="testContainer">
+
+        </div>
+
 
       </body>
     
-
-
-
       {/*footer*/}
       <footer className='container'>
 
