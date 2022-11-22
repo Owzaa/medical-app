@@ -1,13 +1,15 @@
 import './App.css';
+import ResponsiveDrawer from './components/Navbar/navigation';
+
 
 function App() {
   return (
-    <div className="fluid">
+    <div className="container">
       
       {/* Navigation Bar*/}
-      <header className="container" id="SideNavbarHeader">
-            
-      </header>
+      <div className="container" id="SideNavbarHeader">
+        <ResponsiveDrawer/>
+      </div>
     
       {/* Content Container */}
       <body className='container'>
