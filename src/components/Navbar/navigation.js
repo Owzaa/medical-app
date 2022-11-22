@@ -56,7 +56,7 @@ function ResponsiveDrawer(props) {
                     }}
                 >
                     
-                    <Icon sx={{ fontSize: 30 }}>add_circle</Icon>
+                    <Icon sx={{ fontSize: 30 }}>+</Icon>
                 </Box>
             </List>
         </div>
@@ -126,6 +126,24 @@ function ResponsiveDrawer(props) {
                 sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)` } }}
             >
                 <Toolbar />
+                <Typography variant="h5" className='text-mute'>
+                Details:
+
+
+
+                </Typography>
+            
+                <br/> 
+                <Divider/>
+                <Typography variant="h5" className='text-mute'>
+                Requisitions:
+
+                <div id="testCases">
+                    <h6 className="text-mute">
+                        Test:
+                    </h6>
+                </div>
+                </Typography>
        
             </Box>
         </Box>
