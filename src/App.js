@@ -15,22 +15,6 @@ function App() {
       <body className='container'>
 
 
-        {/* Patiant Name */}
-        <div className='flex' id="patiantContainer">
-        
-        </div>
-
-        {/* Requisitions */}
-        <div className='flex' id="requisitionContainer">
-
-        </div>
-
-        
-        {/* Tests */}
-        <div className='flex' id="testContainer">
-
-        </div>
-
 
       </body>
     

@@ -135,13 +135,26 @@ function ResponsiveDrawer(props) {
             
                 <br/> 
                 <Divider/>
+                
                 <Typography variant="h5" className='text-mute'>
+                <div id="Requisition">
+                <h6 className="text-mute">   
                 Requisitions:
+                </h6>
+                
 
+                </div>
+                
+                
                 <div id="testCases">
-                    <h6 className="text-mute">
-                        Test:
-                    </h6>
+                <h6 className="text-mute">
+                Test:
+                </h6>
+                
+                
+                
+                
+                
                 </div>
                 </Typography>
        
