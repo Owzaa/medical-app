@@ -132,7 +132,7 @@ function ResponsiveDrawer(props) {
                 <Toolbar />
                 <Typography variant="h5" className='text-mute'>
                 Details:  
-                {PatientRecords.map(patient =>
+                {/* {PatientRecords.map(patient =>
                    
                    <ul key={patient.PatientId}>   
                     <li>{patient.PatientId}</li>
@@ -140,7 +140,7 @@ function ResponsiveDrawer(props) {
                     <li>{patient.PatientIdentityNumber}</li> 
                     <li>{patient.PatientAddress}</li>                   
                     </ul>                       
-                )}
+                )} */}
                 </Typography>
             
                 <br/> 
