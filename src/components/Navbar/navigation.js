@@ -18,6 +18,7 @@ import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import Icon from '@mui/material/Icon';
 import FilterPatients from '../utilities/filterPatients';
+import { PatientRecords } from '../Patient/PatientsRecords';
 
 const drawerWidth = 240;
 
@@ -86,6 +87,9 @@ function ResponsiveDrawer(props) {
                     </IconButton>
                     <Typography variant="h4" noWrap component="div">
                         <b>PATIENT RECORDS</b>
+
+
+
                     </Typography>
                 </Toolbar>
             </AppBar>
@@ -127,10 +131,15 @@ function ResponsiveDrawer(props) {
             >
                 <Toolbar />
                 <Typography variant="h5" className='text-mute'>
-                Details:
-
-
-
+                Details:  
+                {PatientRecords.map(patient =>
+                   
+                   <ul key={patient.PatientId}>   
+                    <li>{patient.PatientId}</li>
+                    <li>{patient.PatientName}</li>
+                    <li>{patient.PatientIdentityNumber}</li>                    
+                    </ul>                       
+                )}
                 </Typography>
             
                 <br/> 
