@@ -137,7 +137,8 @@ function ResponsiveDrawer(props) {
                    <ul key={patient.PatientId}>   
                     <li>{patient.PatientId}</li>
                     <li>{patient.PatientName}</li>
-                    <li>{patient.PatientIdentityNumber}</li>                    
+                    <li>{patient.PatientIdentityNumber}</li> 
+                    <li>{patient.PatientAddress}</li>                   
                     </ul>                       
                 )}
                 </Typography>

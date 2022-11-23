@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Table } from 'react-bootstrap';
-
-import { Button, ButtonToolbar } from 'react-bootstrap';
-import { AddDepModal } from './AddDepModal';
-import { EditDepModal } from './EditDepModal';
+import { Table } from '@mui/material';
+import { Button } from '@mui/material';
+import { AddDepModal } from './AddModal';
+import { EditDepModal } from './EditModal';
 
 export class PatientRecords  extends Component {
 
